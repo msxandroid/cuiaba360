@@ -1,0 +1,21 @@
+#: locale=pt
+
+## Tour
+
+### Description
+
+### Title
+tour.name = VG 31032024
+
+## Media
+
+### Title
+panorama_8031D1CD_9744_B77E_41D5_DB817BC3B57E.label = v9
+panorama_805053B2_96C4_DB2A_41D7_4C794CFF4F84.label = v6
+panorama_809A4029_96FF_D526_41CB_17E8F7A418F7.label = v5
+panorama_80B50024_96C3_D52F_41C8_9F7FF66127D6.label = v8
+panorama_8380C5B0_96C3_FF26_41C4_62D91DD9AD16.label = v4
+panorama_9AF56FD9_96BC_CB66_41DD_E348AA9742A8.label = vg3
+panorama_9B93DAF8_9690_59EE_41A2_B6872CE21B90.label = vg1
+panorama_9D35697A_9690_38E2_41DF_4975FA663BAF.label = v7
+panorama_9D687E26_9690_F865_41D9_B750CB09D5FB.label = vg2
