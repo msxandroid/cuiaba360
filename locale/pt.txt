@@ -1,0 +1,18 @@
+#: locale=pt
+
+## Tour
+
+### Description
+
+### Title
+tour.name = Sem Título 7
+
+## Media
+
+### Title
+panorama_B479F1AF_A4D5_616E_41E2_0C57AEB48CD2.label = vg
+
+## Action
+
+### URL
+LinkBehaviour_AAAF299C_A4D4_E132_41D5_691745E5B0F2.source = https://msxandroid.github.io/turcuiaba/
