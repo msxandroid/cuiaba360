@@ -1,0 +1,40 @@
+#: locale=pt
+
+## Tour
+
+### Description
+
+### Title
+tour.name = cliente1_cpa2
+
+## Skin
+
+### Tooltip
+IconButton_138AC8EB_1C81_A718_41B9_C0E861AF42F4.toolTip = Fullscreen
+IconButton_138AC8EB_1C81_A718_41B9_C0E861AF42F4_mobile.toolTip = Fullscreen
+
+## Media
+
+### Title
+panorama_A83D4931_A75D_F41C_41DF_64B29A8C9ACD.label = 3a
+panorama_A8D6A147_A5D7_AA53_41C5_FC25A69F6C63.label = cliente1_0304
+panorama_AB1C5C77_A722_EC04_41D3_1420AEFB2240.label = 2
+panorama_AD38F6E7_A725_5C04_41E1_DEB6259AB8F0.label = 8
+panorama_AD3906D4_A725_7C04_41BA_0FAEC0042E42.label = 13
+panorama_AD394ECE_A725_6C04_41D8_11DA201A5B32.label = 9
+panorama_AD395EF7_A725_6C04_41DB_3D08E0B7DCC1.label = 14
+panorama_AD3C26C0_A722_DC7C_41D9_0B1BE4767954.label = 4
+panorama_AD3EBE90_A722_AC1C_41E2_C0D37AFA38EC.label = 5
+panorama_AD3EDEC8_A722_AC0C_41D4_801CC8DA023B.label = 7
+panorama_AD3F46F6_A722_BC07_41DB_088DB6F87203.label = 6
+panorama_B6752EB7_A766_AC04_41E1_3F600EBBAC64.label = 11
+panorama_B6794A79_A763_D40D_41BB_ED6BFA7665FF.label = 12
+panorama_B6DF6C59_A762_AC0C_41DD_F79C158C0247.label = 10
+
+## Popup
+
+### Body
+htmlText_BB72A336_A765_B407_41DC_6DB3B39276C2.html = <div style="text-align:left; color:#000; "><HTML><BODY><DIV STYLE="text-align:left;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:16px;font-family:Arial, Helvetica, sans-serif;">Bem vindo</SPAN></DIV></BODY></HTML></div>
+
+### Title
+window_BB7E333A_A765_B40F_41D6_752EDC3C0043.title = Empresa 3D
