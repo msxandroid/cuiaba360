@@ -6,21 +6,30 @@
     <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <link rel="preload" href="locale/pt.txt?v=1712205209646" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1712205209646" as="script"/>
-	<link rel="preload" href="media/panorama_A8D6A147_A5D7_AA53_41C5_FC25A69F6C63_0/r/1/0_0.jpg?v=1712205209646" as="image"/>
-	<link rel="preload" href="media/panorama_A8D6A147_A5D7_AA53_41C5_FC25A69F6C63_0/l/1/0_0.jpg?v=1712205209646" as="image"/>
-	<link rel="preload" href="media/panorama_A8D6A147_A5D7_AA53_41C5_FC25A69F6C63_0/u/1/0_0.jpg?v=1712205209646" as="image"/>
-	<link rel="preload" href="media/panorama_A8D6A147_A5D7_AA53_41C5_FC25A69F6C63_0/d/1/0_0.jpg?v=1712205209646" as="image"/>
-	<link rel="preload" href="media/panorama_A8D6A147_A5D7_AA53_41C5_FC25A69F6C63_0/f/1/0_0.jpg?v=1712205209646" as="image"/>
-	<link rel="preload" href="media/panorama_A8D6A147_A5D7_AA53_41C5_FC25A69F6C63_0/b/1/0_0.jpg?v=1712205209646" as="image"/>
+    <link rel="shortcut icon" href="favicon.ico?v=1712207170028">
+	<link rel="icon" sizes="48x48 32x32 16x16" href="favicon.ico?v=1712207170028">
+	<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="misc/icon180.png?v=1712207170028">
+	<link rel="icon" type="image/png" sizes="16x16" href="misc/icon16.png?v=1712207170028">
+	<link rel="icon" type="image/png" sizes="32x32" href="misc/icon32.png?v=1712207170028">
+	<link rel="icon" type="image/png" sizes="192x192" href="misc/icon192.png?v=1712207170028">
+	<link rel="manifest" href="manifest.json?v=1712207170028">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-config" content="browserconfig.xml">
+	<link rel="preload" href="locale/pt.txt?v=1712207170028" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1712207170028" as="script"/>
+	<link rel="preload" href="media/panorama_A8D6A147_A5D7_AA53_41C5_FC25A69F6C63_0/r/1/0_0.jpg?v=1712207170028" as="image"/>
+	<link rel="preload" href="media/panorama_A8D6A147_A5D7_AA53_41C5_FC25A69F6C63_0/l/1/0_0.jpg?v=1712207170028" as="image"/>
+	<link rel="preload" href="media/panorama_A8D6A147_A5D7_AA53_41C5_FC25A69F6C63_0/u/1/0_0.jpg?v=1712207170028" as="image"/>
+	<link rel="preload" href="media/panorama_A8D6A147_A5D7_AA53_41C5_FC25A69F6C63_0/d/1/0_0.jpg?v=1712207170028" as="image"/>
+	<link rel="preload" href="media/panorama_A8D6A147_A5D7_AA53_41C5_FC25A69F6C63_0/f/1/0_0.jpg?v=1712207170028" as="image"/>
+	<link rel="preload" href="media/panorama_A8D6A147_A5D7_AA53_41C5_FC25A69F6C63_0/b/1/0_0.jpg?v=1712207170028" as="image"/>
 	<meta name="description" content="Virtual Tour"/>
 	<meta name="theme-color" content="#FFFFFF"/>
-    <script src="lib/tdvplayer.js?v=1712205209646"></script>
-    <script src="script.js?v=1712205209646"></script>
+    <script src="lib/tdvplayer.js?v=1712207170028"></script>
+    <script src="script.js?v=1712207170028"></script>
     <script type="text/javascript">
         var tour;
-        var devicesUrl = {"mobile":"script_mobile.js?v=1712205209646","general":"script_general.js?v=1712205209646"};
+        var devicesUrl = {"mobile":"script_mobile.js?v=1712207170028","general":"script_general.js?v=1712207170028"};
 
         (function()
         {
@@ -63,9 +72,9 @@
 
             var settings = new TDV.PlayerSettings();
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1712205209646');
-            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1712205209646');
-            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1712205209646');
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1712207170028');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1712207170028');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1712207170028');
 
             tour = new TDV.Tour(settings, devicesUrl);
             tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
